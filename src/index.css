@@ -1,13 +1,62 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.container {
+  padding-bottom: 3rem;
+}
+.img {
+  padding-top: 5rem;
+  width: 80%;
+}
+@media only screen and (max-width: 999px) {
+  .img {
+    padding-top: 2.5rem;
+  }
+}
+
+.titleX {
+  color: #b82de2;
+  font-size: 2rem;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.col-md-6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fantasyName {
+  font-size: 3.5rem;
+  font-weight: 600;
+  color: rgb(219, 30, 30);
+}
+
+.text {
+  font-size: 1.3rem;
+  padding: 1rem 1.5rem;
+  text-align: center;
+}
+.word {
+  letter-spacing: 3px;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+@media only screen and (max-width: 999px) {
+  .word {
+    padding-bottom: 2.5rem;
+  }
 }
