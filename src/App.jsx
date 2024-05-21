@@ -19,7 +19,7 @@ function App() {
       imageHeight: 200,
       html: `
     Acesse o <b>github</b> do projeto
-    <a href="#">Aqui!</a>
+    <a href="https://github.com/jorgelgf/allimentee">Aqui!</a>
   `,
     });
     setBool(false);
